@@ -1,0 +1,46 @@
+Resumo dos primeiros testes:
+
+Para o teste em linha reta:
+
+Resultado da odometria:
+
+Ticks Esquerda puros: 344
+Ticks Direita puros: 346
+DistÃ¢ncia calculada final (X): 1.0826 m
+DistÃ¢ncia calculada final (Y): 0.0462 m
+Ã‚ngulo calculado final (Theta): 2.77 Â°
+
+Resultado medindo com a trena:
+
+X = 108 cm
+Y = 4 cm
+
+- Resultado até que bom, o erro translacional foi mínimo.Em X quase cravou, em Y deu um pouco de diferença ~2cm em alguns testes
+- Houve um problema com o contato do terra do encoder esquerdo, corrigi substituindo o fio
+
+Para o teste de rotação:
+Ticks Esquerda: 377
+Ticks Direita : 300
+Ã‚ngulo calculado final (Theta): -326.04 graus
+
+Fiz uma medição com o transferidor:
+- Em torno de 370-380 graus.
+
+- Resultado mostra que determinar ângulo só com o encoder não tem boa precisão, acredito que por conta do arrasto lateral da esteira.
+- Tive de aumentar a tração nos motores subindo o PWM de 60 para 80. pode ser por conta da força necessária para dar curva ou pela bateria estar mais fraca (verificar tensão) 
+
+
+Para o teste do quadrado:
+
+== RESULTADOS ==
+X Final: 0.006 m
+Y Final: 0.033 m
+Theta Final: -274.78 graus
+Erro absoluto de fechamento (Odometria): 0.034 m
+
+Mas medindo na real, deu aproximadamente:
+
+14 cm de distância entre o ponto inicial e ponto final
+theta de aproximadamente 230 graus
+
+- Dá para ver que não dá para usar só encoder para odometria desse robô. Próximo teste será usando IMU.
