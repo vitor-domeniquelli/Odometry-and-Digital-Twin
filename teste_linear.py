@@ -10,8 +10,11 @@ import matplotlib.pyplot as plt
 # ======================
 RAIO_RODA = 0.030    # Metros (Ajustar após este teste)
 L = 0.130            # Metros (Bitola)
-PULSOS_POR_VOLTA = 40
+
+REDUCAO = 1.5              # Relacao de reducao da engrenagem (Motor:Esteira)
+PULSOS_POR_VOLTA = 40 * REDUCAO
 DIST_POR_PULSO = (2 * math.pi * RAIO_RODA) / PULSOS_POR_VOLTA
+
 
 TEMPO_MOVIMENTO = 3.0  # Tempo em segundos que o robô andará para frente
 VELOCIDADE_PWM = 60    # Duty cycle (0 a 100%) - Ajuste para evitar escorregamento
@@ -138,7 +141,8 @@ def main():
     time.sleep(0.5) # Aguarda acomodação mecânica final
     running = False
     odo_thread.join()
-    
+    print(f"Ticks Esquerda puros: {ticks_esq}")
+    print(f"Ticks Direita puros: {ticks_dir}")
     print(f"Distância calculada final (X): {pose_x:.4f} m")
     print(f"Distância calculada final (Y): {pose_y:.4f} m")
     print(f"Ângulo calculado final (Theta): {math.degrees(pose_theta):.2f} °")
