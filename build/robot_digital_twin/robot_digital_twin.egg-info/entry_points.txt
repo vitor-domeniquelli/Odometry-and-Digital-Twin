@@ -1,0 +1,8 @@
+[console_scripts]
+controller = robot_digital_twin.controller_node:main
+ground_truth = robot_digital_twin.ground_truth_node:main
+logger = robot_digital_twin.logger_node:main
+odom = robot_digital_twin.odom_node:main
+serial_bridge = robot_digital_twin.serial_bridge_node:main
+twin = robot_digital_twin.twin_node:main
+

@@ -1,0 +1,31 @@
+[0.394s] Invoking command in '/home/vitor/artigo_ieee_ws/src/robot_digital_twin': PYTHONPATH=/home/vitor/artigo_ieee_ws/build/robot_digital_twin/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_digital_twin build --build-base /home/vitor/artigo_ieee_ws/build/robot_digital_twin/build install --record /home/vitor/artigo_ieee_ws/build/robot_digital_twin/install.log --single-version-externally-managed install_data
+[0.554s] running egg_info
+[0.554s] writing ../../build/robot_digital_twin/robot_digital_twin.egg-info/PKG-INFO
+[0.555s] writing dependency_links to ../../build/robot_digital_twin/robot_digital_twin.egg-info/dependency_links.txt
+[0.555s] writing entry points to ../../build/robot_digital_twin/robot_digital_twin.egg-info/entry_points.txt
+[0.555s] writing requirements to ../../build/robot_digital_twin/robot_digital_twin.egg-info/requires.txt
+[0.555s] writing top-level names to ../../build/robot_digital_twin/robot_digital_twin.egg-info/top_level.txt
+[0.556s] reading manifest file '../../build/robot_digital_twin/robot_digital_twin.egg-info/SOURCES.txt'
+[0.557s] writing manifest file '../../build/robot_digital_twin/robot_digital_twin.egg-info/SOURCES.txt'
+[0.557s] running build
+[0.557s] running build_py
+[0.557s] copying robot_digital_twin/twin_node.py -> /home/vitor/artigo_ieee_ws/build/robot_digital_twin/build/lib/robot_digital_twin
+[0.557s] running install
+[0.557s] running install_lib
+[0.558s] copying /home/vitor/artigo_ieee_ws/build/robot_digital_twin/build/lib/robot_digital_twin/twin_node.py -> /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages/robot_digital_twin
+[0.558s] byte-compiling /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages/robot_digital_twin/twin_node.py to twin_node.cpython-310.pyc
+[0.559s] running install_data
+[0.559s] copying config/camera_matrix.npy -> /home/vitor/artigo_ieee_ws/install/robot_digital_twin/share/robot_digital_twin/config
+[0.559s] copying config/dist_coeffs.npy -> /home/vitor/artigo_ieee_ws/install/robot_digital_twin/share/robot_digital_twin/config
+[0.559s] running install_egg_info
+[0.560s] removing '/home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages/robot_digital_twin-0.1.0-py3.10.egg-info' (and everything under it)
+[0.560s] Copying ../../build/robot_digital_twin/robot_digital_twin.egg-info to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages/robot_digital_twin-0.1.0-py3.10.egg-info
+[0.561s] running install_scripts
+[0.575s] Installing controller script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+[0.575s] Installing ground_truth script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+[0.575s] Installing logger script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+[0.575s] Installing odom script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+[0.575s] Installing serial_bridge script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+[0.575s] Installing twin script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+[0.576s] writing list of installed files to '/home/vitor/artigo_ieee_ws/build/robot_digital_twin/install.log'
+[0.592s] Invoked command in '/home/vitor/artigo_ieee_ws/src/robot_digital_twin' returned '0': PYTHONPATH=/home/vitor/artigo_ieee_ws/build/robot_digital_twin/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_digital_twin build --build-base /home/vitor/artigo_ieee_ws/build/robot_digital_twin/build install --record /home/vitor/artigo_ieee_ws/build/robot_digital_twin/install.log --single-version-externally-managed install_data

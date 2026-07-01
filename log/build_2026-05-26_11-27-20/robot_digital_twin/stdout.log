@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/robot_digital_twin/robot_digital_twin.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_digital_twin/robot_digital_twin.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_digital_twin/robot_digital_twin.egg-info/entry_points.txt
+writing requirements to ../../build/robot_digital_twin/robot_digital_twin.egg-info/requires.txt
+writing top-level names to ../../build/robot_digital_twin/robot_digital_twin.egg-info/top_level.txt
+reading manifest file '../../build/robot_digital_twin/robot_digital_twin.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_digital_twin/robot_digital_twin.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_digital_twin/ground_truth_node.py -> /home/vitor/artigo_ieee_ws/build/robot_digital_twin/build/lib/robot_digital_twin
+running install
+running install_lib
+copying /home/vitor/artigo_ieee_ws/build/robot_digital_twin/build/lib/robot_digital_twin/ground_truth_node.py -> /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages/robot_digital_twin
+byte-compiling /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages/robot_digital_twin/ground_truth_node.py to ground_truth_node.cpython-310.pyc
+running install_data
+copying launch/robot_launch.py -> /home/vitor/artigo_ieee_ws/install/robot_digital_twin/share/robot_digital_twin/launch
+copying config/rviz_config.rviz -> /home/vitor/artigo_ieee_ws/install/robot_digital_twin/share/robot_digital_twin/config
+running install_egg_info
+removing '/home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages/robot_digital_twin-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_digital_twin/robot_digital_twin.egg-info to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/python3.10/site-packages/robot_digital_twin-0.1.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+Installing ground_truth script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+Installing odom script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+Installing serial_bridge script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+Installing twin script to /home/vitor/artigo_ieee_ws/install/robot_digital_twin/lib/robot_digital_twin
+writing list of installed files to '/home/vitor/artigo_ieee_ws/build/robot_digital_twin/install.log'
